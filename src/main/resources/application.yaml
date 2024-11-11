@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: motor-credito-completo
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
+server:
+  address: 0.0.0.0
+  port: 8084
